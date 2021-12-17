@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:capitalize;
+    text-decoration: none;
+    font-size:1.0vw;
+    list-style: none;
+
+}
+header{
+    width: 100%;
+}
+/* .top{
+    width: 100%;
+    height: 13vh;
+    display:flex;
+    justify-content: space-between;
+} */
+h1{
+    width: 30vw;
+    margin-top: 4vh;
+    color:black;
+    font-size: 180%;
+}
+.menu{
+    width: 100%;
+    height: 1vh;
+    display: flex;
+} 
+nav{
+    width: 30vw;
+    margin-top: 4vh;
+
+} 
+ul{
+    display:flex;
+    align-items:center;
+}
+li{
+    font-size: 120%;
+    padding: 8px; 
+    color:grey;   
+}
+li:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+.text{
+    position: absolute;
+    margin-top: 32vh;
+    margin-left: 6vw;
+    background-color:transparent;
+    
+}
+.laranja{
+    width: 100%;
+    z-index: 0;
+
+}
+h2{
+    font-size: 1.2em;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.paragrafo{
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-top: 9vh;
+    font-size:19px ;
+}
+.sec-dois{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+main{
+    display: flex;
+}
+.sec-tres{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    gap:1vw;
+}
+.img{
+    width:20vw;
+    
+}
+.rede-sociais{
+    display: flex;
+    
+}
