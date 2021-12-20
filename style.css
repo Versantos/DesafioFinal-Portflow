@@ -10,7 +10,6 @@
     text-decoration: none;
     font-size:1.0vw;
     list-style: none;
-
 }
 body{
     width: 100%;
@@ -76,8 +75,7 @@ h2{
 .sec-dois{
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
-    
+    margin-top: 10%; 
 }
 main{
     display: flex;
@@ -97,20 +95,29 @@ main{
     
 }
 footer{
-    width:13vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
     background-color: #F5F5F5;
 }
-rodape{
-    width: 20%;
+.rodape{
     display: flex;
-    align-items: center;
+    background-color: transparent;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 5%;
+    font-size: 18px;
     margin-bottom: 5%;
-    gap:2vw;
+    flex-wrap: wrap;
+    gap:2vw;    
 }
 .redesociais{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
+}
+p{
+    color: grey;
+    font-size: 10px;
+    background-color: transparent;
+}
+h3{
+    background-color: transparent;
 }
